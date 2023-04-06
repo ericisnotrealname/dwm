@@ -92,8 +92,8 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	// self config
 	{ MODKEY|ShiftMask,             XK_l,      spawn,          {.v = slockcmd } },
-	{ MODKEY,                       XK_F2,     spawn,          SHCMD("amixer sset Master 5%- ") },
-	{ MODKEY,                       XK_F3,     spawn,          SHCMD("amixer sset Master 5%+ ") },
+	{ MODKEY,                       XK_F5,     spawn,          SHCMD("amixer sset Master 5%- ") },
+	{ MODKEY,                       XK_F6,     spawn,          SHCMD("amixer sset Master 5%+ ") },
 	{ MODKEY|ShiftMask,             XK_s,      spawn,          SHCMD("flameshot gui") },
 	// self config end
 	TAGKEYS(                        XK_1,                      0)
